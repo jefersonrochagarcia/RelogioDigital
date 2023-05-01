@@ -1,0 +1,75 @@
+Body{
+    background-repeat: no-repeat ;
+    padding: 200px;
+  }
+
+h1 {
+font-family: sans-serif;
+color: green;
+text-transform: uppercase;
+text-align: center;
+}
+#Relogio-iniciar{
+color: white;
+background-color: green;
+font-family: verdana;
+padding: 15px;
+border: none;
+border-radius: 2px;
+}
+#Relogio-parar {
+color: white;
+background-color: red;
+padding: 15px;
+border: none;
+border-radius: 2px;
+}
+span {
+font-size: 40px;
+color:  green;
+}
+form {
+display: flex;
+align-items: center;
+gap: 5px;
+justify-content: center;
+}
+#mudaFundo {
+font-size: 8px;
+padding: 5px;
+width: 100px;
+height: 50px;
+background-color: silver;
+text-transform: uppercase;
+color: black;
+font-size: 10px;
+font-weight: bold;
+
+}
+#mudaFundo:hover {
+cursor: pointer;
+}
+.laranja {
+background-color: rgb(243,173,43);
+transition: all 0.25s ease-in-out;
+}
+.preto{
+background-color:black;
+transition: all 0.25s ease-in-out;
+}
+.purple {
+background-color: rgb(243,29,109);
+transition: all 0.25s ease-in-out;
+}
+button {
+padding: 5px 10px;
+border: 0;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+font-size: 22px;
+font-weight: 300;
+margin: 0 10px;
+
+}
+
